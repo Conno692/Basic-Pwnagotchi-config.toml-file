@@ -1,0 +1,15 @@
+main.name = "pwnagotchi"
+main.lang = "en"
+main.whitelist = [
+  "YOUR_NETWORK_HERE"
+]
+
+main.plugins.grid.enabled = true
+main.plugins.grid.report = true
+main.plugins.grid.exclude = [
+  "YOUR_NETWORK_HERE"
+]
+
+ui.display.enabled = true
+ui.display.type = "waveshare_3"
+ui.display.color = "black"
